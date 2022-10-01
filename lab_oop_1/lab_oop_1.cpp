@@ -16,12 +16,12 @@ void menu_graph() {
     while (flag) {
         std::cout << "Choose commands: " << std::endl;
         std::cout << "[1] - add vertex" << std::endl
-            << "[2] - add edge" << std::endl
-            << "[3] - delete vertex" << std::endl
-            << "[4] - delete edge" << std::endl
-            << "[5] - output graph" << std::endl
-            << "[6] - algorithm_Kruskala" << std::endl
-            << "[0] - exit" << std::endl;;
+                  << "[2] - add edge" << std::endl
+                  << "[3] - delete vertex" << std::endl
+                  << "[4] - delete edge" << std::endl
+                  << "[5] - output graph" << std::endl
+                  << "[6] - tree for a graph" << std::endl
+                  << "[0] - exit" << std::endl;;
         std::cin >> choose;
         switch (choose) {
         case 1:

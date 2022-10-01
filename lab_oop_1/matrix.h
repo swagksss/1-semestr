@@ -127,7 +127,7 @@ MatrixElement<T>* search_by_value(Matrix<T> horizontal[order], T data) {
 		}
 	}
 
-	std::cout << "There is no item with the specified value" << std::endl;
+	std::cout << "There is no item with the specified value !" << std::endl;
 	result = new MatrixElement<T>;
 	return result;
 }
@@ -284,8 +284,6 @@ void get_vertical(Matrix<T> horizontal[order], Matrix<T>(&vertical)[order]) {
 	}
 }
 
-
-
 template<typename T>
 void multiplication(Matrix<T> A_horizontal[order], Matrix<T> B_horizontal[order], Matrix<T>(&result)[order]) {
 	Matrix<T> B_vertical[order];
@@ -320,7 +318,6 @@ void multiplication(Matrix<T> A_horizontal[order], Matrix<T> B_horizontal[order]
 
 }
 
-
 template<typename T>
 void transponce(Matrix<T> horizontal[order], Matrix<T>(&result)[order]) {
 	Matrix<T> vertical[order];
@@ -334,7 +331,6 @@ void transponce(Matrix<T> horizontal[order], Matrix<T>(&result)[order]) {
 		}
 	}
 }
-
 
 template<typename T>
 std::vector<T> multiplication_by_vector(const Matrix<T> horizontal[order], const std::vector<T>& vect) {
@@ -355,7 +351,6 @@ std::vector<T> multiplication_by_vector(const Matrix<T> horizontal[order], const
 
 	return result;
 }
-
 
 template<typename T>
 void print_matrix(Matrix<T>(&horizontal)[order]) {
@@ -446,7 +441,6 @@ void main_sum_matrix(Matrix<T> A_horizontal[order], Matrix<T> B_horizontal[order
 
 
 template<typename T>
-
 void main_multiplication(Matrix<T> A_horizontal[order], Matrix<T> B_horizontal[order]) {
 	Matrix<T> result[order];
 	multiplication(A_horizontal, B_horizontal, result);
