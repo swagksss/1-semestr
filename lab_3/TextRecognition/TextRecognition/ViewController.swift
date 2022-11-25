@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     private let imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "example3")
+        imageView.image = UIImage(named: "example1")
         imageView.contentMode = .scaleAspectFit
         return imageView
     }()
