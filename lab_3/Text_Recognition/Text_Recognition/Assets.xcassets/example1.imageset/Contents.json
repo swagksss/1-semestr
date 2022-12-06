@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Znak_dvizhenie_bez_ostanovki_zaprescheno_kakie_zapreschayut__gde_ostanavlivatsya__proezd_znaka_stop__pdd__deystvie__shtraf_1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
