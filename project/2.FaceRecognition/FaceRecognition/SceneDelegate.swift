@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  FaceRecognition
 //
-//  Created by swag.ksss on 05.10.2022.
 //
 
 import UIKit
